@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 
 const customDictionary = {
-  wsa: "was",
-  byo: "boy",
-  ta: "at",
-  exampl: "example"
-
-};
+    teh: "the",
+    wrok: "work",
+    fot: "for",
+    exampl: "example"
+   
+  };
 
 function SpellCheck() {
   const [inputText, setInputText] = useState("");
